@@ -1,7 +1,7 @@
 ---
 title: "AIS User guides"
 linkTitle: User guides
-weight: 2
+weight: 5
 ---
 
 ## How to Use XNAT
