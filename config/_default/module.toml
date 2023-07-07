@@ -1,0 +1,16 @@
+#replacements = "github.com/Australian-Imaging-Service/charts -> ../../charts"
+[hugoVersion]
+  extended = true
+  min = "0.110.0"
+[[imports]]
+  path = "github.com/Australian-Imaging-Service/charts"
+  disable = false
+[[imports.mounts]]
+  source = "docs"
+  target = "content/docs/charts"
+[[imports]]
+  path = "github.com/google/docsy"
+  disable = false
+[[imports]]
+  path = "github.com/google/docsy/dependencies"
+  disable = false
